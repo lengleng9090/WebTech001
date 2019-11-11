@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit&display=swap');
+body {
+  font-family: 'Kanit', sans-serif;;
+  font-size: 100%;
+  line-height: 175%;
+  margin:0 15%;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: auto;
+  padding: 14px 19px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.content {
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+
+.expert-header {
+  position: relative;
+  width: 1350px;
+  height: 200px /* Set height as per you needed */;
+  display: block;
+  background-size: cover !important;
+  background: url(Image/Tab.jpg);
+  background-repeat: no-repeat !important;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
