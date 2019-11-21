@@ -1,0 +1,22 @@
+#image1{
+  position: absolute;
+  left: 400px;
+  top: 300px;
+}
+.button1 {
+  position : absolute; 
+  background-color: #0a561a; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 390px 290px;
+}
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
